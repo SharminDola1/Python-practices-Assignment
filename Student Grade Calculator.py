@@ -37,3 +37,4 @@ print(f"Average Marks: {average_marks:.2f}")
 print(f"Final Grade: {grade}\n\n")
 
 
+print("new line")
