@@ -1,0 +1,107 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    /* Reset & base styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {About-me}
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e0eafc, #cfdef3);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    /* Profile Card Container */
+    .card {
+      background: #ffffff;
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 380px;
+      width: 100%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Profile Image */
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #4a90e2;
+      box-shadow: 0 4px 10px rgba(74, 144, 226, 0.3);
+    }
+
+    /* Profile Name */
+    .name {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #2c3e50;
+      margin-bottom: 8px;
+    }
+
+    /* Subtitle / Bio snippet */
+    .title {
+      font-size: 0.95rem;
+      color: #7f8c8d;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* Contact Details */
+    .email-link {
+      display: inline-block;
+      text-decoration: none;
+      color: #4a90e2;
+      background: #f0f7ff;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: background 0.3s ease, color 0.3s ease;
+      border: 1px solid rgba(74, 144, 226, 0.2);
+    }
+
+    .email-link:hover {
+      background: #4a90e2;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="card">
+    <!-- Replace the src URL with the path to your own image file or link -->
+    <img src="Dola Photo 02.jpeg" alt="Profile Picture" class="profile-img">
+    
+    <h1 class="name">Sharmin Akter Dola</h1>
+    <p class="title">Web Developer & Designer</p>
+    
+    <a href="mailto:your.email@example.com" class="email-link">
+      sharmin0906@gmail.com
+    </a>
+  </main>
+
+</body>
+</html>
